@@ -18,7 +18,7 @@ const AppContent: React.FC = () => {
     <div className="flex flex-col h-screen bg-black text-white overflow-x-hidden">
       <Header />
 
-      <main className="relative z-10 pt-16">
+      <main className="relative z-10 pt-16 flex-1 overflow-y-auto custom-scrollbar">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<HomePage />} />

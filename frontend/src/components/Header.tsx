@@ -96,6 +96,10 @@ const Header = () => {
               <span className="text-sm">Deception Assets</span>
             </Link>
           </div>
+
+          <div className="bg-[#C10007] px-2 py-1 rounded-md">
+            <span className="text-xs">Open System Overview</span>
+          </div>
         </div>
       </nav>
     </header>
