@@ -526,6 +526,7 @@ const EChart: React.FC<EChartProps> = (props) => {
       }
     }
 
+    option.backgroundColor = "transparent";
     chart.setOption(option, true);
 
     // Handle resize
