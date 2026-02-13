@@ -15,7 +15,7 @@ const AppContent: React.FC = () => {
   const isLandingPage = location.pathname === "/";
 
   return (
-    <div className="flex flex-col h-screen bg-black text-white overflow-x-hidden">
+    <div className="flex flex-col h-screen text-white overflow-x-hidden">
       <Header />
 
       <main className="relative z-10 pt-16 flex-1 overflow-y-auto custom-scrollbar">

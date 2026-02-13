@@ -2,6 +2,19 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+body {
+  background-color: #020618;
+  background-image:
+    url("./assets/background_image.svg"),
+    linear-gradient(180deg, rgba(2, 6, 24, 1) 70%, rgba(68, 19, 25, 0.5) 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-size:
+    cover,
+    100% 100%;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
 @font-face {
   font-family: "Helvetica Neue";
   src: url("./fonts/helveticaneue-roman.woff2") format("woff2");
@@ -168,6 +181,17 @@ body {
   }
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.5);
+  }
+
+  .glassmorphism-card {
+    background: linear-gradient(180deg, #363636 0%, transparent 10%);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(180, 180, 180, 0.2);
+    border-left-color: rgba(217, 217, 217, 0.25);
+    border-right-color: rgba(217, 217, 217, 0.25);
   }
 }
 

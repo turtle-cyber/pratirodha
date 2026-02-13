@@ -199,7 +199,7 @@ const LandingPage = () => {
             <div className="flex items-start justify-center py-16">
               <div className="w-full max-w-7xl px-8 flex gap-12">
                 {/* Left Side */}
-                <div className="flex flex-col w-[40%]">
+                <div className="flex flex-col w-[40%] justify-center">
                   <h2 className="font-sf font-bold text-2xl tracking-wide">
                     Security Without Uncertainty
                   </h2>
